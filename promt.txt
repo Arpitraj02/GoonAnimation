@@ -1,0 +1,110 @@
+You are a senior Android engineer and UI/UX designer. Your task is to create a complete production-ready Android animation app similar to Flipaclip.
+
+App Name: GoonAnimation
+
+Requirements:
+
+1. Core Features
+
+- Frame-by-frame animation editor similar to Flipaclip
+- Timeline with multiple frames
+- Onion skin support
+- Drawing tools: pen, brush, eraser, fill bucket
+- Adjustable brush size and opacity
+- Layers system
+- Frame duplication and deletion
+- Animation preview player
+- Export animation to GIF and MP4
+- Import images as frames
+- Undo / redo system
+- Autosave projects
+
+2. UI / UX
+
+- Modern clean UI with smooth animations
+- Dark theme by default
+- Material Design 3 styling
+- Floating toolbar for drawing tools
+- Bottom timeline with draggable frames
+- Gesture zoom + pan canvas
+- Responsive canvas performance (60fps drawing)
+
+3. Tech Stack
+
+- Kotlin
+- Android Studio project structure
+- Jetpack Compose for UI
+- MVVM architecture
+- Coroutines
+- Canvas drawing engine
+- Proper project modularization
+- Clean, maintainable code with comments
+
+4. Performance
+
+- Optimized drawing engine
+- Memory efficient frame storage
+- No UI lag even with 200+ frames
+- Use bitmap caching
+
+5. Error Handling
+
+- The project must compile with zero build errors
+- All dependencies must be stable
+- Gradle configuration must be correct
+
+6. GitHub Repository Structure
+   Create a complete repository with:
+
+/app
+/.github/workflows/android-build.yml
+/README.md
+/build.gradle
+/settings.gradle
+
+7. GitHub Actions CI
+
+Add a GitHub Actions workflow that:
+
+- Runs automatically on push
+- Builds the Android project
+- Compiles the APK
+- Uploads the APK as a GitHub Actions artifact
+
+Workflow requirements:
+
+- Ubuntu runner
+- Install Java 17
+- Setup Android SDK
+- Run Gradle build
+- Upload generated APK
+
+Example artifact name:
+GoonAnimation-debug.apk
+
+8. Build Goal
+
+When I run the GitHub Actions workflow:
+
+- The project should automatically compile
+- An APK should be generated
+- The APK should be uploaded to the workflow artifacts
+- I can download the APK and test it directly
+
+9. Additional Requirements
+
+- No placeholder code
+- Fully working drawing canvas
+- No runtime crashes
+- Provide complete source code
+- Ensure the project builds successfully on the first run
+
+10. Documentation
+    Include a README explaining:
+
+- How to run the project locally
+- How the animation engine works
+- How to download the APK from GitHub Actions
+
+Deliverable:
+A fully working Android Studio project ready to push to GitHub and build automatically.
