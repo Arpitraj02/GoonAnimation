@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GoonAnimation</string>
+    <string name="new_project">New Project</string>
+    <string name="open_project">Open Project</string>
+    <string name="save_project">Save Project</string>
+    <string name="export_gif">Export GIF</string>
+    <string name="export_mp4">Export MP4</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="add_frame">Add Frame</string>
+    <string name="delete_frame">Delete Frame</string>
+    <string name="duplicate_frame">Duplicate Frame</string>
+    <string name="pen_tool">Pen</string>
+    <string name="brush_tool">Brush</string>
+    <string name="eraser_tool">Eraser</string>
+    <string name="fill_tool">Fill</string>
+    <string name="onion_skin">Onion Skin</string>
+    <string name="layers">Layers</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="opacity">Opacity</string>
+    <string name="color_picker">Color Picker</string>
+</resources>
